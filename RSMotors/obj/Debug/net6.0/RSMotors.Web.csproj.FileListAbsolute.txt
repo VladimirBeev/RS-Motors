@@ -98,3 +98,5 @@ C:\Users\beev\Desktop\VB\RS Motors\RS-Motors\RSMotors\bin\Debug\net6.0\System.Co
 C:\Users\beev\Desktop\VB\RS Motors\RS-Motors\RSMotors\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Users\beev\Desktop\VB\RS Motors\RS-Motors\RSMotors\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\beev\Desktop\VB\RS Motors\RS-Motors\RSMotors\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\beev\Desktop\VB\RS Motors\RS-Motors\RSMotors\bin\Debug\net6.0\Common.dll
+C:\Users\beev\Desktop\VB\RS Motors\RS-Motors\RSMotors\bin\Debug\net6.0\Common.pdb

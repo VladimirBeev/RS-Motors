@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-using RSMotors.Models;
+using RSMotors.Web.ViewModels;
 
 using System.Diagnostics;
 
-namespace RSMotors.Controllers
+namespace RSMotors.Web.Controllers
 {
     public class HomeController : Controller
     {

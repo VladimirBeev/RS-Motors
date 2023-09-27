@@ -12,3 +12,6 @@ C:\Users\beev\Desktop\VB\RS Motors\RS-Motors\Infrastructure\obj\Debug\net6.0\RSM
 C:\Users\beev\Desktop\VB\RS Motors\RS-Motors\Infrastructure\obj\Debug\net6.0\ref\RSMotors.Infrastructure.dll
 C:\Users\beev\Desktop\VB\RS Motors\RS-Motors\Infrastructure\bin\Debug\net6.0\RSMotors.Infrastructure.runtimeconfig.json
 C:\Users\beev\Desktop\VB\RS Motors\RS-Motors\Infrastructure\obj\Debug\net6.0\RSMotors.Infrastructure.genruntimeconfig.cache
+C:\Users\beev\Desktop\VB\RS Motors\RS-Motors\Infrastructure\bin\Debug\net6.0\Common.dll
+C:\Users\beev\Desktop\VB\RS Motors\RS-Motors\Infrastructure\bin\Debug\net6.0\Common.pdb
+C:\Users\beev\Desktop\VB\RS Motors\RS-Motors\Infrastructure\obj\Debug\net6.0\RSMotors.Infrastructure.csproj.CopyComplete

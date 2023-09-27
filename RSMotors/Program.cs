@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using RSMotors.Infrastructure;
 using RSMotors.Infrastructure.Models;
 
-namespace RSMotors
+namespace RSMotors.Web
 {
     public class Program
     {
@@ -25,6 +25,8 @@ namespace RSMotors
                 .AddDefaultTokenProviders();
 
             builder.Services.AddControllersWithViews();
+
+            builder.Services.AddRazorPages();
 
             var app = builder.Build();
 
