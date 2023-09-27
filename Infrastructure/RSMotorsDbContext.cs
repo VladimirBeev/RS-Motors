@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace RSMotors.Data
+using RSMotors.Infrastructure.Models;
+
+namespace RSMotors.Infrastructure
 {
-    public class RSMotorsDbContext : IdentityDbContext
+    public class RSMotorsDbContext : IdentityDbContext<ApplicationUser, ApplicationRole, Guid>
     {
         public RSMotorsDbContext(DbContextOptions<RSMotorsDbContext> options)
             : base(options)

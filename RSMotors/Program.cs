@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
-using RSMotors.Data;
+using RSMotors.Infrastructure;
+using RSMotors.Infrastructure.Models;
 
 namespace RSMotors
 {
@@ -18,8 +19,10 @@ namespace RSMotors
 
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-            builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<RSMotorsDbContext>();
+            builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                .AddRoles<ApplicationRole>()
+                .AddEntityFrameworkStores<RSMotorsDbContext>()
+                .AddDefaultTokenProviders();
 
             builder.Services.AddControllersWithViews();
 

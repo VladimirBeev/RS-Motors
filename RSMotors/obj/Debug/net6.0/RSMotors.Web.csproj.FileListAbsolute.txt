@@ -92,3 +92,9 @@ C:\Users\beev\Desktop\VB\RS Motors\RS-Motors\RSMotors\obj\Debug\net6.0\refint\RS
 C:\Users\beev\Desktop\VB\RS Motors\RS-Motors\RSMotors\obj\Debug\net6.0\RSMotors.Web.pdb
 C:\Users\beev\Desktop\VB\RS Motors\RS-Motors\RSMotors\obj\Debug\net6.0\RSMotors.Web.genruntimeconfig.cache
 C:\Users\beev\Desktop\VB\RS Motors\RS-Motors\RSMotors\obj\Debug\net6.0\ref\RSMotors.Web.dll
+C:\Users\beev\Desktop\VB\RS Motors\RS-Motors\RSMotors\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\beev\Desktop\VB\RS Motors\RS-Motors\RSMotors\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\beev\Desktop\VB\RS Motors\RS-Motors\RSMotors\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\beev\Desktop\VB\RS Motors\RS-Motors\RSMotors\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\beev\Desktop\VB\RS Motors\RS-Motors\RSMotors\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\beev\Desktop\VB\RS Motors\RS-Motors\RSMotors\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
