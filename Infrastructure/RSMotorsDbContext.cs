@@ -12,6 +12,9 @@ namespace RSMotors.Infrastructure
         {
         }
         public DbSet<Car> Cars { get; set; }
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Payment> Payments { get; set; }
+        public DbSet<RepairPart> RepairParts { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -27,6 +30,13 @@ namespace RSMotors.Infrastructure
                 .HasForeignKey(c => c.CarId)
                 .IsRequired();
 
+            modelBuilder.Entity<Payment>()
+                .Property(p => p.Amount)
+                .HasPrecision(8,2);
+
+            modelBuilder.Entity<RepairPart>()
+                .Property(p => p.Price)
+                .HasPrecision(8, 2);
 
             base.OnModelCreating(modelBuilder);
         }
