@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
+using RSMotors.Core.Services;
 using RSMotors.Infrastructure;
 using RSMotors.Infrastructure.Models;
 
@@ -23,6 +24,8 @@ namespace RSMotors.Web
                 .AddRoles<ApplicationRole>()
                 .AddEntityFrameworkStores<RSMotorsDbContext>()
                 .AddDefaultTokenProviders();
+
+            builder.Services.AddTransient<CarService>();
 
             builder.Services.AddControllersWithViews();
 
