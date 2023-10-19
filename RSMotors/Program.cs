@@ -20,7 +20,15 @@ namespace RSMotors.Web
 
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-            builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
+            {
+                options.SignIn.RequireConfirmedAccount = builder.Configuration.GetValue<bool>("Identity:SingIn:ReqireConfirmeAccount");
+                options.Password.RequireLowercase = builder.Configuration.GetValue<bool>("Password:RequireLowercase");
+                options.Password.RequireUppercase = builder.Configuration.GetValue<bool>("Password:RequireUppercase");
+                options.Password.RequireDigit = builder.Configuration.GetValue<bool>("Password:RequireDigit");
+                options.Password.RequiredLength = builder.Configuration.GetValue<int>("Password:RequiredLength");
+                options.Password.RequireNonAlphanumeric = builder.Configuration.GetValue<bool>("Password:RequireNonAlphanumeric");
+            })
                 .AddRoles<ApplicationRole>()
                 .AddEntityFrameworkStores<RSMotorsDbContext>()
                 .AddDefaultTokenProviders();
