@@ -2100,19 +2100,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\beev\\.nuget\\packages\\": {}
+    "C:\\Users\\VLADO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\beev\\Desktop\\VB\\RS Motors\\RS-Motors\\Infrastructure\\RSMotors.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\VLADO\\Desktop\\RSMotors\\RS-Motors\\Infrastructure\\RSMotors.Infrastructure.csproj",
       "projectName": "RSMotors.Infrastructure",
-      "projectPath": "C:\\Users\\beev\\Desktop\\VB\\RS Motors\\RS-Motors\\Infrastructure\\RSMotors.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\beev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\beev\\Desktop\\VB\\RS Motors\\RS-Motors\\Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\VLADO\\Desktop\\RSMotors\\RS-Motors\\Infrastructure\\RSMotors.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\VLADO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\VLADO\\Desktop\\RSMotors\\RS-Motors\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\beev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\VLADO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2126,8 +2126,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\beev\\Desktop\\VB\\RS Motors\\RS-Motors\\Common\\Common.csproj": {
-              "projectPath": "C:\\Users\\beev\\Desktop\\VB\\RS Motors\\RS-Motors\\Common\\Common.csproj"
+            "C:\\Users\\VLADO\\Desktop\\RSMotors\\RS-Motors\\Common\\Common.csproj": {
+              "projectPath": "C:\\Users\\VLADO\\Desktop\\RSMotors\\RS-Motors\\Common\\Common.csproj"
             }
           }
         }
@@ -2167,7 +2167,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
