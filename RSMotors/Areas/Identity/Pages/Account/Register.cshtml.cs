@@ -106,8 +106,7 @@ namespace RSMotors.Web.Areas.Identity.Pages.Account
         {
             if ((User.Identity?.IsAuthenticated ?? false))
             {
-                return RedirectToAction("Index");
-                //throw new InvalidOperationException("You are in your account!");
+                return RedirectToAction("Index","Home");
             }
 
             ReturnUrl = returnUrl;

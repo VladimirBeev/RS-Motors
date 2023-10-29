@@ -12,9 +12,8 @@ namespace RSMotors.Web
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
-            var connectionString = builder.Configuration
-                .GetConnectionString("RSMotorsDbContextConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+                        var connectionString = builder.Configuration.GetConnectionString("RSMotorsDbContextConnection") ?? 
+                throw new InvalidOperationException("Connection string 'RSMotorsDbContextConnection' not found.");
 
             builder.Services.AddDbContext<RSMotorsDbContext>(options =>
                 options.UseSqlServer(connectionString));
