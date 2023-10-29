@@ -1,0 +1,15 @@
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Web.ViewModel\bin\Debug\net6.0\RSMotors.Web.ViewModel.deps.json
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Web.ViewModel\bin\Debug\net6.0\RSMotors.Web.ViewModel.dll
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Web.ViewModel\bin\Debug\net6.0\RSMotors.Web.ViewModel.pdb
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Web.ViewModel\bin\Debug\net6.0\Common.dll
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Web.ViewModel\bin\Debug\net6.0\Common.pdb
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Web.ViewModel\obj\Debug\net6.0\RSMotors.Web.ViewModel.csproj.AssemblyReference.cache
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Web.ViewModel\obj\Debug\net6.0\RSMotors.Web.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Web.ViewModel\obj\Debug\net6.0\RSMotors.Web.ViewModel.AssemblyInfoInputs.cache
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Web.ViewModel\obj\Debug\net6.0\RSMotors.Web.ViewModel.AssemblyInfo.cs
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Web.ViewModel\obj\Debug\net6.0\RSMotors.Web.ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Web.ViewModel\obj\Debug\net6.0\RSMotors.Web.ViewModel.csproj.CopyComplete
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Web.ViewModel\obj\Debug\net6.0\RSMotors.Web.ViewModel.dll
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Web.ViewModel\obj\Debug\net6.0\refint\RSMotors.Web.ViewModel.dll
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Web.ViewModel\obj\Debug\net6.0\RSMotors.Web.ViewModel.pdb
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Web.ViewModel\obj\Debug\net6.0\ref\RSMotors.Web.ViewModel.dll

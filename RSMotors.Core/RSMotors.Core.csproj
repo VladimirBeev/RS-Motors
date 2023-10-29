@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure\RSMotors.Infrastructure.csproj" />
+    <ProjectReference Include="..\RSMotors.Web.ViewModel\RSMotors.Web.ViewModel.csproj" />
+  </ItemGroup>
+
 </Project>

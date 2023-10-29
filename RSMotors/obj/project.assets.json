@@ -4110,6 +4110,10 @@
       "RSMotors.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "RSMotors.Infrastructure": "1.0.0",
+          "RSMotors.Web.ViewModel": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/RSMotors.Core.dll": {}
         },
@@ -4130,6 +4134,19 @@
         },
         "runtime": {
           "bin/placeholder/RSMotors.Infrastructure.dll": {}
+        }
+      },
+      "RSMotors.Web.ViewModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RSMotors.Web.ViewModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RSMotors.Web.ViewModel.dll": {}
         }
       }
     }
@@ -11531,6 +11548,11 @@
       "type": "project",
       "path": "../Infrastructure/RSMotors.Infrastructure.csproj",
       "msbuildProject": "../Infrastructure/RSMotors.Infrastructure.csproj"
+    },
+    "RSMotors.Web.ViewModel/1.0.0": {
+      "type": "project",
+      "path": "../RSMotors.Web.ViewModel/RSMotors.Web.ViewModel.csproj",
+      "msbuildProject": "../RSMotors.Web.ViewModel/RSMotors.Web.ViewModel.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -11543,7 +11565,8 @@
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.23",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.16",
       "RSMotors.Core >= 1.0.0",
-      "RSMotors.Infrastructure >= 1.0.0"
+      "RSMotors.Infrastructure >= 1.0.0",
+      "RSMotors.Web.ViewModel >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -11578,6 +11601,9 @@
             },
             "C:\\Users\\VLADO\\Desktop\\RSMotors\\RS-Motors\\RSMotors.Core\\RSMotors.Core.csproj": {
               "projectPath": "C:\\Users\\VLADO\\Desktop\\RSMotors\\RS-Motors\\RSMotors.Core\\RSMotors.Core.csproj"
+            },
+            "C:\\Users\\VLADO\\Desktop\\RSMotors\\RS-Motors\\RSMotors.Web.ViewModel\\RSMotors.Web.ViewModel.csproj": {
+              "projectPath": "C:\\Users\\VLADO\\Desktop\\RSMotors\\RS-Motors\\RSMotors.Web.ViewModel\\RSMotors.Web.ViewModel.csproj"
             }
           }
         }
@@ -11642,7 +11668,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

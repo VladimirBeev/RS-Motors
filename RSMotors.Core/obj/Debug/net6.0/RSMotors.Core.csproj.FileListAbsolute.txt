@@ -20,3 +20,11 @@ C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Core\obj\Debug\net6.0\RSMotor
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Core\obj\Debug\net6.0\refint\RSMotors.Core.dll
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Core\obj\Debug\net6.0\RSMotors.Core.pdb
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Core\obj\Debug\net6.0\ref\RSMotors.Core.dll
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Core\obj\Debug\net6.0\RSMotors.Core.csproj.AssemblyReference.cache
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Core\bin\Debug\net6.0\Common.dll
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Core\bin\Debug\net6.0\RSMotors.Infrastructure.dll
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Core\bin\Debug\net6.0\RSMotors.Web.ViewModel.dll
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Core\bin\Debug\net6.0\RSMotors.Infrastructure.pdb
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Core\bin\Debug\net6.0\RSMotors.Web.ViewModel.pdb
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Core\bin\Debug\net6.0\Common.pdb
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Core\obj\Debug\net6.0\RSMotors.Core.csproj.CopyComplete

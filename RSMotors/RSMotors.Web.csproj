@@ -23,6 +23,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Infrastructure\RSMotors.Infrastructure.csproj" />
     <ProjectReference Include="..\RSMotors.Core\RSMotors.Core.csproj" />
+    <ProjectReference Include="..\RSMotors.Web.ViewModel\RSMotors.Web.ViewModel.csproj" />
   </ItemGroup>
 
 </Project>

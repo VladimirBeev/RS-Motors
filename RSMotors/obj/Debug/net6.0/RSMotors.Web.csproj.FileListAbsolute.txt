@@ -584,3 +584,5 @@ C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\obj\Debug\net6.0\refint\RSMot
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\obj\Debug\net6.0\RSMotors.Web.pdb
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\obj\Debug\net6.0\RSMotors.Web.genruntimeconfig.cache
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\obj\Debug\net6.0\ref\RSMotors.Web.dll
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\bin\Debug\net6.0\RSMotors.Web.ViewModel.dll
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\bin\Debug\net6.0\RSMotors.Web.ViewModel.pdb

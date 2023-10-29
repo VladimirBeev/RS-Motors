@@ -16,7 +16,8 @@
           "Microsoft.EntityFrameworkCore.Tools": "6.0.23",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.16",
           "RSMotors.Core": "1.0.0",
-          "RSMotors.Infrastructure": "1.0.0"
+          "RSMotors.Infrastructure": "1.0.0",
+          "RSMotors.Web.ViewModel": "1.0.0"
         },
         "runtime": {
           "RSMotors.Web.dll": {}
@@ -2763,6 +2764,10 @@
         }
       },
       "RSMotors.Core/1.0.0": {
+        "dependencies": {
+          "RSMotors.Infrastructure": "1.0.0",
+          "RSMotors.Web.ViewModel": "1.0.0"
+        },
         "runtime": {
           "RSMotors.Core.dll": {}
         }
@@ -2775,6 +2780,14 @@
         },
         "runtime": {
           "RSMotors.Infrastructure.dll": {}
+        }
+      },
+      "RSMotors.Web.ViewModel/1.0.0": {
+        "dependencies": {
+          "Common": "1.0.0"
+        },
+        "runtime": {
+          "RSMotors.Web.ViewModel.dll": {}
         }
       }
     }
@@ -4420,6 +4433,11 @@
       "sha512": ""
     },
     "RSMotors.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RSMotors.Web.ViewModel/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

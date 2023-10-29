@@ -1,4 +1,4 @@
-namespace RSMotors.Web.ViewModels
+namespace RSMotors.Web.Models
 {
     public class ErrorViewModel
     {

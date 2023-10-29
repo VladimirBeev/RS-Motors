@@ -1,6 +1,9 @@
-﻿namespace RSMotors.Core.Interfaces
+﻿using RSMotors.Web.ViewModels;
+
+namespace RSMotors.Core.Interfaces
 {
-    public interface ICarServices
-    {
-    }
+	public interface ICarServices
+	{
+		Task AddCar(AddCarViewModel addCar);
+	}
 }

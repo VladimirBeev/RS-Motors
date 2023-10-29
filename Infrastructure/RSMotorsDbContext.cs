@@ -11,10 +11,10 @@ namespace RSMotors.Infrastructure
             : base(options)
         {
         }
-        public DbSet<Car> Cars { get; set; }
-        public DbSet<Customer> Customers { get; set; }
-        public DbSet<Payment> Payments { get; set; }
-        public DbSet<RepairPart> RepairParts { get; set; }
+        public DbSet<Car> Cars { get; set; } = null!;
+        public DbSet<Customer> Customers { get; set; } = null!;
+        public DbSet<Payment> Payments { get; set; } = null!;
+        public DbSet<RepairPart> RepairParts { get; set; } = null!;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

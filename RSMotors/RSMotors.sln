@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RSMotors.Infrastructure", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RSMotors.Core", "..\RSMotors.Core\RSMotors.Core.csproj", "{D488693D-9900-4E53-A6B9-558596E23B81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\Common\Common.csproj", "{40BA7F59-6D77-460D-BFC0-D7FA463443B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "..\Common\Common.csproj", "{40BA7F59-6D77-460D-BFC0-D7FA463443B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSMotors.Web.ViewModel", "..\RSMotors.Web.ViewModel\RSMotors.Web.ViewModel.csproj", "{2615067E-58E0-400E-95B6-C337470B1EC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{40BA7F59-6D77-460D-BFC0-D7FA463443B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40BA7F59-6D77-460D-BFC0-D7FA463443B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40BA7F59-6D77-460D-BFC0-D7FA463443B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2615067E-58E0-400E-95B6-C337470B1EC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2615067E-58E0-400E-95B6-C337470B1EC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2615067E-58E0-400E-95B6-C337470B1EC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2615067E-58E0-400E-95B6-C337470B1EC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{A5A8D4B2-8FAD-4E7D-B40E-4245A3DDEEC3} = {A8691622-8265-40D1-AFCA-1E795E9C5608}
 		{D488693D-9900-4E53-A6B9-558596E23B81} = {A8691622-8265-40D1-AFCA-1E795E9C5608}
 		{40BA7F59-6D77-460D-BFC0-D7FA463443B2} = {A8691622-8265-40D1-AFCA-1E795E9C5608}
+		{2615067E-58E0-400E-95B6-C337470B1EC8} = {A8691622-8265-40D1-AFCA-1E795E9C5608}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A2472CA-4961-449C-926F-2A06D67B5A56}
