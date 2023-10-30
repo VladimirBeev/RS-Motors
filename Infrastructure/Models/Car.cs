@@ -8,7 +8,7 @@ namespace RSMotors.Infrastructure.Models
     {
 
         [Key]
-        public Guid Id { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
 
         [Required]
         [StringLength(ManufacturerMaxLength)]

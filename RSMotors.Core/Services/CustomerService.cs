@@ -41,6 +41,7 @@ namespace RSMotors.Core.Services
 			return await context.Customers
 				.Select(a => new CustomersViewModel
 				{
+					Id = a.Id,
 					FirstName = a.FirstName,
 					LastName = a.LastName,
 					Email = a.Email,

@@ -16,9 +16,10 @@ namespace RSMotors.Web.Controllers
             this.carServices = carServices;
         }
         [HttpGet]
-        public IActionResult AddCar()
+        public IActionResult AddCar(Guid id)
         {
             var model = new AddCarViewModel();
+            model.CustomerId = id;
             return View(model);
         }
 

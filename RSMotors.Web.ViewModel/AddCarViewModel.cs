@@ -6,8 +6,8 @@ namespace RSMotors.Web.ViewModels
 {
 	public class AddCarViewModel
     {
-        [Key]
-        public Guid Id { get; set; }
+        //[Key]
+        //public Guid Id { get; set; } = new Guid();
 
         [Required]
         [StringLength(ManufacturerMaxLength)]

@@ -21,7 +21,6 @@ namespace RSMotors.Core.Services
 			Customer? customer = await context.Customers.FirstOrDefaultAsync(c => c.Id == addCar.CustomerId);
 
 			Car car = new Car();
-			car.Id = addCar.Id;
 			car.Manufacturer = addCar.Manufacturer;
 			car.Model = addCar.Model;
 			car.Year = addCar.Year;

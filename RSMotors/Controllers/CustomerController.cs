@@ -31,7 +31,7 @@ namespace RSMotors.Web.Controllers
 
 			await customerServices.AddCustomer(model);
 
-			return RedirectToAction("AddCar", "Car");
+			return RedirectToAction("Index","Home");
 		}
 
 		[HttpGet]
