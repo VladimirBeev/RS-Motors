@@ -36,6 +36,7 @@ namespace RSMotors.Core.Services
 			await context.SaveChangesAsync();
 		}
 
+		
         public async Task<List<CustomersViewModel>> AllCustomers()
         {
 			return await context.Customers
@@ -49,5 +50,21 @@ namespace RSMotors.Core.Services
 					Address = a.Address,
 				}).ToListAsync();
         }
-    }
+
+		public async Task<CustomersViewModel> GetCustomer(Guid id)
+		{
+			Customer? customer = await context.Customers.FirstOrDefaultAsync(c => c.Id == id);
+
+			CustomersViewModel viewModel = new CustomersViewModel();
+			viewModel.Id = customer.Id;
+			viewModel.FirstName = customer.FirstName;
+			viewModel.LastName = customer.LastName;
+			viewModel.Email = customer.Email;
+			viewModel.Phone = customer.Phone;
+			viewModel.Address = customer.Address;
+
+			return viewModel;
+
+		}
+	}
 }

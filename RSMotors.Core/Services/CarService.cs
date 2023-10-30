@@ -3,7 +3,7 @@
 using RSMotors.Core.Interfaces;
 using RSMotors.Infrastructure;
 using RSMotors.Infrastructure.Models;
-using RSMotors.Web.ViewModels;
+using RSMotors.Web.ViewModel.Car;
 
 namespace RSMotors.Core.Services
 {
@@ -33,6 +33,23 @@ namespace RSMotors.Core.Services
 			await context.Cars.AddAsync(car);
 
 			await context.SaveChangesAsync();
+		}
+
+		public async Task<List<AddCarViewModel>> CustomerCars(Guid customerId)
+		{
+			return await context.Cars
+				.Select(c => new AddCarViewModel()
+				{
+					Manufacturer = c.Manufacturer,
+					Model = c.Model,
+					Year = c.Year,
+					Vin = c.Vin,
+					RegistrationPlate = c.RegistrationPlate,
+					Details = c.Details,
+					CustomerId = c.CustomerId
+				})
+				.Where(c => c.CustomerId == customerId)
+				.ToListAsync();
 		}
 	}
 }

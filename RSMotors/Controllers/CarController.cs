@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 using RSMotors.Core.Interfaces;
 using RSMotors.Infrastructure.Extensions;
-using RSMotors.Web.ViewModels;
+using RSMotors.Web.ViewModel.Car;
 
 namespace RSMotors.Web.Controllers
 {
@@ -36,5 +36,13 @@ namespace RSMotors.Web.Controllers
 
             return View("CarDetails");
         }
-    }
+
+        [HttpGet]
+        public async Task<IActionResult> CustomerCars(Guid id)
+        {
+            List<AddCarViewModel> cars = await carServices.CustomerCars(id);
+            return View(cars);
+        }
+
+	}
 }

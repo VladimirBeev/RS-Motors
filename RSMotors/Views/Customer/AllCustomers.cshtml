@@ -1,4 +1,4 @@
-﻿@model IEnumerable<RSMotors.Web.ViewModel.Customer.CustomersViewModel>
+﻿@model IEnumerable<CustomersViewModel>
 
 @{
 	ViewData["Title"] = "AllCustomers";
@@ -59,13 +59,18 @@
 				<td>
 					<a asp-area="" asp-controller="Car" asp-action="AddCar" asp-route-id="@item.Id"
 					   class="btn btn-warning">Add Car</a>
+
+					<a asp-area="" asp-controller="Car" asp-action="CustomerCars" asp-route-id="@item.Id"
+					   class="btn btn-warning">Customer Cars</a>
+
 					<a asp-area="" asp-controller="Customer" asp-action="DetailsCustomer" asp-route-id="@item.Id"
 					   class="btn btn-warning">Details Customer</a>
+
 					<a asp-area="" asp-controller="Customer" asp-action="EditCustomer" asp-route-id="@item.Id"
 					   class="btn btn-warning">Edit Customer</a>
+
 					<a asp-area="" asp-controller="Customer" asp-action="DeleteCustomer" asp-route-id="@item.Id"
 					   class="btn btn-warning">Delete Customer</a>
-
 				</td>
 			</tr>
 		}

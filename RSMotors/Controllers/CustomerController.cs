@@ -40,5 +40,12 @@ namespace RSMotors.Web.Controllers
 			List<CustomersViewModel> customers = await customerServices.AllCustomers();
 			return View(customers);
 		}
+
+		[HttpGet]
+		public async Task<IActionResult> DetailsCustomer(Guid id)
+		{
+			CustomersViewModel customer = await customerServices.GetCustomer(id);
+			return View(customer);
+		}
 	}
 }

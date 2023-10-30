@@ -6,5 +6,6 @@ namespace RSMotors.Core.Interfaces
 	{
 		Task AddCustomer(AddCustomerViewModel model);
         Task<List<CustomersViewModel>> AllCustomers();
-    }
+		Task<CustomersViewModel> GetCustomer(Guid id);
+	}
 }
