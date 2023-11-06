@@ -51,6 +51,11 @@ namespace RSMotors.Core.Services
 				}).ToListAsync();
         }
 
+		public async Task<List<string>> GetAllNames()
+		{
+			return await context.Customers.Select(c => c.FirstName).ToListAsync();
+		}
+
 		public async Task<CustomersViewModel> GetCustomer(Guid id)
 		{
 			Customer? customer = await context.Customers.FirstOrDefaultAsync(c => c.Id == id);

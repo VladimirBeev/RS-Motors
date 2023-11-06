@@ -10,6 +10,7 @@
 <p>
 	<a asp-action="AddCustomer">Create New</a>
 </p>
+
 <table class="table">
 	<thead>
 		<tr>
@@ -58,19 +59,19 @@
 				</td>
 				<td>
 					<a asp-area="" asp-controller="Car" asp-action="AddCar" asp-route-id="@item.Id"
-					   class="btn btn-warning">Add Car</a>
+					   class="btn btn-primary">Add Car</a>
 
 					<a asp-area="" asp-controller="Car" asp-action="CustomerCars" asp-route-id="@item.Id"
-					   class="btn btn-warning">Customer Cars</a>
+					   class="btn btn-primary">Customer Cars</a>
 
 					<a asp-area="" asp-controller="Customer" asp-action="DetailsCustomer" asp-route-id="@item.Id"
 					   class="btn btn-warning">Details Customer</a>
 
 					<a asp-area="" asp-controller="Customer" asp-action="EditCustomer" asp-route-id="@item.Id"
-					   class="btn btn-warning">Edit Customer</a>
+					   class="btn btn-danger">Edit Customer</a>
 
 					<a asp-area="" asp-controller="Customer" asp-action="DeleteCustomer" asp-route-id="@item.Id"
-					   class="btn btn-warning">Delete Customer</a>
+					   class="btn btn-danger">Delete Customer</a>
 				</td>
 			</tr>
 		}
