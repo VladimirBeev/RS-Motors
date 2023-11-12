@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "C:\\Users\\VLADO\\Desktop\\RSMotors\\RS-Motors\\RSMotors\\wwwroot\\js\\test.js",
+      "PackagePath": "staticwebassets\\js\\test.js"
+    },
+    {
       "Id": "C:\\Users\\VLADO\\Desktop\\RSMotors\\RS-Motors\\RSMotors\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
