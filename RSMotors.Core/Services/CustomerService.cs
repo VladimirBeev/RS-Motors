@@ -4,11 +4,6 @@ using RSMotors.Core.Interfaces;
 using RSMotors.Infrastructure;
 using RSMotors.Infrastructure.Models;
 using RSMotors.Web.ViewModel.Customer;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RSMotors.Core.Services
 {
@@ -37,10 +32,10 @@ namespace RSMotors.Core.Services
 		}
 
 		
-        public async Task<List<CustomersViewModel>> AllCustomers()
+        public async Task<List<AllCustomersViewModel>> AllCustomers()
         {
 			return await context.Customers
-				.Select(a => new CustomersViewModel
+				.Select(a => new AllCustomersViewModel
 				{
 					Id = a.Id,
 					FirstName = a.FirstName,
@@ -51,17 +46,52 @@ namespace RSMotors.Core.Services
 				}).ToListAsync();
         }
 
-		public async Task<List<string>> GetAllNames()
+        public async Task<bool> DeleteCustomer(Guid? id)
+        {
+			Customer? customer = await context.Customers.FirstOrDefaultAsync(cu => cu.Id == id);
+
+			if (customer != null)
+			{
+				context.Remove(customer);
+				await context.SaveChangesAsync();
+				return true;
+			}
+
+			return false;
+        }
+
+        public async Task<bool> EditCustomer(EditCustomerViewModel editCustomerViewModel)
+        {
+			Customer? customer = await context.Customers.FirstOrDefaultAsync(cu => cu.Id == editCustomerViewModel.Id);
+
+			if (customer != null)
+			{
+				customer.FirstName = editCustomerViewModel.FirstName;
+				customer.LastName = editCustomerViewModel.LastName;
+				customer.Email = editCustomerViewModel.Email;
+				customer.Phone = editCustomerViewModel.Phone;
+				customer.Address = editCustomerViewModel.Address;
+
+				await context.SaveChangesAsync();
+
+				return true;
+			}
+
+			return false;
+        }
+
+        public async Task<List<string>> GetAllNames()
 		{
 			return await context.Customers.Select(c => c.FirstName).ToListAsync();
 		}
 
-		public async Task<CustomersViewModel> GetCustomer(Guid id)
+		public async Task<CustomerViewModel> GetCustomer(Guid id)
 		{
 			Customer? customer = await context.Customers.FirstOrDefaultAsync(c => c.Id == id);
 
-			CustomersViewModel viewModel = new CustomersViewModel();
-			viewModel.Id = customer.Id;
+			CustomerViewModel viewModel = new CustomerViewModel();
+
+			viewModel.Id = customer!.Id;
 			viewModel.FirstName = customer.FirstName;
 			viewModel.LastName = customer.LastName;
 			viewModel.Email = customer.Email;
@@ -71,5 +101,21 @@ namespace RSMotors.Core.Services
 			return viewModel;
 
 		}
-	}
+
+        public async Task<EditCustomerViewModel> GetCustomerForEdit(Guid id)
+        {
+
+            Customer? customer = await context.Customers.FirstOrDefaultAsync(c => c.Id == id);
+
+            EditCustomerViewModel viewModel = new EditCustomerViewModel();
+            viewModel.Id = customer!.Id;
+            viewModel.FirstName = customer.FirstName;
+            viewModel.LastName = customer.LastName;
+            viewModel.Email = customer.Email;
+            viewModel.Phone = customer.Phone;
+            viewModel.Address = customer.Address;
+
+            return viewModel;
+        }
+    }
 }

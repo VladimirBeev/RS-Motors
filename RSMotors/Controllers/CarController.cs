@@ -40,8 +40,29 @@ namespace RSMotors.Web.Controllers
         [HttpGet]
         public async Task<IActionResult> CustomerCars(Guid id)
         {
-            List<AddCarViewModel> cars = await carServices.CustomerCars(id);
+            List<CustomerAllCarsViewModel> cars = await carServices.CustomerCars(id);
             return View(cars);
+        }
+
+        [HttpGet]
+        public async Task<JsonResult> Details(Guid id)
+        {
+            DetailsCarViewModel? car = await carServices.GetCarDetails(id);
+
+            return new JsonResult(Ok(car));
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> Delete(Guid id)
+        {
+            bool carDelete = await carServices.DeleteCar(id);
+
+            if (carDelete == false)
+            {
+                return View();
+            }
+
+            return View();
         }
 
 	}

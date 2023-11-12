@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KqNCkcyJbdkDBLJsizJAbjc8JInOnjfmC9P5y7lqELE=",
+  "Hash": "xjN7da2s90ra5tilI8QnkLOFGau5hDDUzdSo6trrJ6c=",
   "Source": "RSMotors.Web",
   "BasePath": "_content/RSMotors.Web",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\VLADO\\Desktop\\RSMotors\\RS-Motors\\RSMotors\\wwwroot\\js\\detailsCar.js",
+      "SourceId": "RSMotors.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\VLADO\\Desktop\\RSMotors\\RS-Motors\\RSMotors\\wwwroot\\",
+      "BasePath": "_content/RSMotors.Web",
+      "RelativePath": "js/detailsCar.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\detailsCar.js"
     },
     {
       "Identity": "C:\\Users\\VLADO\\Desktop\\RSMotors\\RS-Motors\\RSMotors\\wwwroot\\js\\site.js",

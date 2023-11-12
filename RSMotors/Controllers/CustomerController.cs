@@ -37,23 +37,54 @@ namespace RSMotors.Web.Controllers
 		[HttpGet]
 		public async Task<IActionResult> AllCustomers()
 		{
-			List<CustomersViewModel> customers = await customerServices.AllCustomers();
+			List<AllCustomersViewModel> customers = await customerServices.AllCustomers();
 			return View(customers);
 		}
 
 		[HttpGet]
 		public async Task<IActionResult> DetailsCustomer(Guid id)
 		{
-			CustomersViewModel customer = await customerServices.GetCustomer(id);
+			CustomerViewModel customer = await customerServices.GetCustomer(id);
 			return View(customer);
 		}
+		[HttpGet]
+		public async Task<IActionResult> Edit(Guid id)
+		{
+            EditCustomerViewModel editCustomer = await customerServices.GetCustomerForEdit(id);
+
+			return View(editCustomer);
+		}
+
+		[HttpPost]
+		[ValidateAntiForgeryToken]
+		public async Task<IActionResult> Edit([Bind(include: "Id, FirstName")]EditCustomerViewModel editCustomerViewModel)
+		{
+			if (ModelState.IsValid)
+			{
+                bool editCustomer = await customerServices.EditCustomer(editCustomerViewModel);
+				if (editCustomer)
+				{
+                    return RedirectToAction("AllCustomers");
+                }
+            }
+
+            return RedirectToAction("AllCustomers");
+        }
 
 		[HttpGet]
-		public async Task<JsonResult> GetNames()
+		public async Task<IActionResult> Delete(Guid id)
 		{
-			List<string> names = await customerServices.GetAllNames();
+            EditCustomerViewModel editCustomer = await customerServices.GetCustomerForEdit(id);
 
-			return new JsonResult(Ok(names));
-		}
-	}
+            return View(editCustomer);
+        }
+
+		[HttpPost]
+        public async Task<IActionResult> Delete(Guid? id)
+        {
+			bool customerDelete = await customerServices.DeleteCustomer(id);
+
+			return RedirectToAction("AllCustomers");
+        }
+    }
 }

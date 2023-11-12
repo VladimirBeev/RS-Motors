@@ -1,4 +1,4 @@
-﻿@model IEnumerable<AddCarViewModel>
+﻿@model IEnumerable<CustomerAllCarsViewModel>
 
 @{
     ViewData["Title"] = "CustomerCars";
@@ -62,11 +62,45 @@
                 @Html.DisplayFor(modelItem => item.CustomerId)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                    <a asp-area="" asp-controller="Car" asp-action="Edit" asp-route-id="@item.Id"
+                       class="btn btn-primary">Edit</a>
+
+                    <a class="btn btn-primary" onclick="detailsCar('@item.Id')" >Details</a>
+
+                    <a asp-area="" asp-controller="Car" asp-action="Delete" asp-route-id="@item.Id"
+                       class="btn btn-primary">Delete</a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+<div id="xmlDoc"></div>
+<script src="~/js/detailsCar.js"></script>
+@* @section Scripts {
+    <script>
+        async function detailsCar(id) {
+
+            try {
+                let url = "https://localhost:7049/Car/Details" + id;
+
+                let respons = await fetch(url);
+
+                if (respons.ok) {
+
+                    let jsonn = await respons.json();
+
+                    let arr = jsonn.value;
+
+                    for (let i = 0; i < arr.length; i++) {
+                        document.getElementById('xmlDoc').innerHTML = arr[i];
+                    }
+                }
+                else {
+                    document.getElementById('xmlDoc').innerHTML = "hahahah";
+                }
+            } catch (err) {
+                console.log(Error);
+            }
+        };
+    </script> *@
+@* } *@

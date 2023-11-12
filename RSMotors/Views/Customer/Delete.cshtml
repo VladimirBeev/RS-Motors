@@ -1,17 +1,16 @@
-﻿@model CustomerViewModel
+﻿@model RSMotors.Web.ViewModel.Customer.EditCustomerViewModel
 
 @{
-    ViewData["Title"] = "DetailsCustomer";
+    ViewData["Title"] = "Delete";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>DetailsCustomer</h1>
+<h1>Delete</h1>
 
+<h3>Are you sure you want to delete this?</h3>
 <div>
-    <h4>CustomersViewModel</h4>
+    <h4>EditCustomerViewModel</h4>
     <hr />
-    <a asp-area="" asp-controller="Car" asp-action="Add" asp-route-id="@Model.Id"
-       class="btn btn-primary">Add Car</a>
     <dl class="row">
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Id)
@@ -50,11 +49,9 @@
             @Html.DisplayFor(model => model.Phone)
         </dd>
     </dl>
-</div>
-<div>
-    <a asp-area="" asp-controller="Customer" asp-action="Edit" asp-route-id="@Model.Id"
-       class="btn btn-primary">Edit</a>
-    <a asp-area="" asp-controller="Customer" asp-action="Delete" asp-route-id="@Model.Id"
-       class="btn btn-primary">Delete</a>
-    <a class="btn btn-warning" asp-controller="Customer" asp-action="AllCustomers">Back to List</a>
+    
+    <form asp-action="Delete" method="post">
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a class="btn btn-primary" asp-action="DetailsCustomer" asp-route-id="@Model.Id">Back to List</a>
+    </form>
 </div>
