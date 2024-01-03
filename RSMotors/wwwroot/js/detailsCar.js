@@ -1,5 +1,6 @@
 ﻿async function detailsCar(Id) {
 
+    document.getElementById("xmlDoc").innerHTML = "";
     try {
         let url = "https://localhost:7049/Car/Details" + "/"+Id;
 
@@ -21,7 +22,7 @@
             }
         }
         else {
-            document.getElementById('xmlDoc').innerHTML = "hahahah";
+            document.getElementById('xmlDoc').innerHTML = "ha";
         }
     } catch (err) {
         console.log(Error);

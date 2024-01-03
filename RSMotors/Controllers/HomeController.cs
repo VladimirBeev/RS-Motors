@@ -20,6 +20,7 @@ namespace RSMotors.Web.Controllers
         [AllowAnonymous]
         public IActionResult Index()
         {
+
             return View();
         }
 

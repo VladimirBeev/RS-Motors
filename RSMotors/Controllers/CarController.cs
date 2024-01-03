@@ -2,8 +2,10 @@
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 using RSMotors.Core.Interfaces;
+using RSMotors.Core.Services;
 using RSMotors.Infrastructure.Extensions;
 using RSMotors.Web.ViewModel.Car;
+using RSMotors.Web.ViewModel.Customer;
 
 namespace RSMotors.Web.Controllers
 {
@@ -44,6 +46,29 @@ namespace RSMotors.Web.Controllers
             return View(cars);
         }
 
+        public async Task<IActionResult> Edit(Guid id)
+        {
+            EditCarViewModel? editCarView = await carServices.GetCarForEdit(id);
+
+            return View(editCarView);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(EditCarViewModel editCarViewModel)
+        {
+            if (ModelState.IsValid)
+            {
+                bool editCar = await carServices.EditCar(editCarViewModel);
+                if (editCar)
+                {
+                    return RedirectToAction("AllCustomers","Customer");
+                }
+            }
+
+            return RedirectToAction("AllCustomers", "Customer");
+        }
+
         [HttpGet]
         public async Task<JsonResult> Details(Guid id)
         {
@@ -52,17 +77,16 @@ namespace RSMotors.Web.Controllers
             return new JsonResult(Ok(car));
         }
 
-        [HttpDelete]
         public async Task<IActionResult> Delete(Guid id)
         {
             bool carDelete = await carServices.DeleteCar(id);
 
             if (carDelete == false)
             {
-                return View();
+                return RedirectToAction("AllCustomers", "Customer");
             }
 
-            return View();
+            return RedirectToAction("AllCustomers", "Customer");
         }
 
 	}

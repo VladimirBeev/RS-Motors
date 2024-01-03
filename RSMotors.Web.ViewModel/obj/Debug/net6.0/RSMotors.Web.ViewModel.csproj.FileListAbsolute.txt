@@ -8,6 +8,7 @@ C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Web.ViewModel\obj\Debug\net6.
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Web.ViewModel\obj\Debug\net6.0\RSMotors.Web.ViewModel.AssemblyInfoInputs.cache
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Web.ViewModel\obj\Debug\net6.0\RSMotors.Web.ViewModel.AssemblyInfo.cs
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Web.ViewModel\obj\Debug\net6.0\RSMotors.Web.ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Web.ViewModel\obj\Debug\net6.0\RSMotors.Web.ViewModel.sourcelink.json
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Web.ViewModel\obj\Debug\net6.0\RSMotors.Web.ViewModel.csproj.CopyComplete
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Web.ViewModel\obj\Debug\net6.0\RSMotors.Web.ViewModel.dll
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors.Web.ViewModel\obj\Debug\net6.0\refint\RSMotors.Web.ViewModel.dll

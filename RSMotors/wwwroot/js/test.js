@@ -1,7 +1,7 @@
 ﻿async function loadXmlDoc() {
 
     try {
-        let url = "https://localhost:7049/Customer/GetNames";
+        let url = "https://localhost:7049/Customer/AllCustomers";
 
         let respons = await fetch(url);
 

@@ -16,6 +16,7 @@ C:\Users\VLADO\Desktop\RSMotors\RS-Motors\Common\obj\Debug\net6.0\Common.Generat
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\Common\obj\Debug\net6.0\Common.AssemblyInfoInputs.cache
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\Common\obj\Debug\net6.0\Common.AssemblyInfo.cs
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\Common\obj\Debug\net6.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\Common\obj\Debug\net6.0\Common.sourcelink.json
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\Common\obj\Debug\net6.0\Common.dll
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\Common\obj\Debug\net6.0\refint\Common.dll
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\Common\obj\Debug\net6.0\Common.pdb

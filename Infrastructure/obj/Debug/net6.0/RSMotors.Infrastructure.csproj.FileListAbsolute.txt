@@ -23,6 +23,7 @@ C:\Users\VLADO\Desktop\RSMotors\RS-Motors\Infrastructure\obj\Debug\net6.0\RSMoto
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\Infrastructure\obj\Debug\net6.0\RSMotors.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\Infrastructure\obj\Debug\net6.0\RSMotors.Infrastructure.AssemblyInfo.cs
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\Infrastructure\obj\Debug\net6.0\RSMotors.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\Infrastructure\obj\Debug\net6.0\RSMotors.Infrastructure.sourcelink.json
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\Infrastructure\obj\Debug\net6.0\RSMotors.Infrastructure.csproj.CopyComplete
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\Infrastructure\obj\Debug\net6.0\RSMotors.Infrastructure.dll
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\Infrastructure\obj\Debug\net6.0\refint\RSMotors.Infrastructure.dll

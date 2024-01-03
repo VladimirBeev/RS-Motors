@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\RSMotors.Web.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\VLADO\\Desktop\\RSMotors\\RS-Motors\\RSMotors\\wwwroot\\css\\AddCarStyle.css",
+      "PackagePath": "staticwebassets\\css\\AddCarStyle.css"
+    },
+    {
       "Id": "C:\\Users\\VLADO\\Desktop\\RSMotors\\RS-Motors\\RSMotors\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -292,8 +292,8 @@ C:\Users\beev\Desktop\VB\RS Motors\RS-Motors\RSMotors\bin\Debug\net6.0\runtimes\
 C:\Users\beev\Desktop\VB\RS Motors\RS-Motors\RSMotors\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\beev\Desktop\VB\RS Motors\RS-Motors\RSMotors\bin\Debug\net6.0\appsettings.Production.json
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\bin\Debug\net6.0\appsettings.Production.json
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\bin\Debug\net6.0\appsettings.json
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\bin\Debug\net6.0\appsettings.Production.json
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\bin\Debug\net6.0\RSMotors.Web.staticwebassets.runtime.json
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\bin\Debug\net6.0\RSMotors.Web.exe
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\bin\Debug\net6.0\RSMotors.Web.deps.json
@@ -556,8 +556,10 @@ C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\bin\Debug\net6.0\runtimes\win
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\bin\Debug\net6.0\Common.dll
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\bin\Debug\net6.0\RSMotors.Core.dll
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\bin\Debug\net6.0\RSMotors.Infrastructure.dll
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\bin\Debug\net6.0\RSMotors.Web.ViewModel.dll
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\bin\Debug\net6.0\RSMotors.Infrastructure.pdb
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\bin\Debug\net6.0\RSMotors.Core.pdb
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\bin\Debug\net6.0\RSMotors.Web.ViewModel.pdb
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\bin\Debug\net6.0\Common.pdb
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\obj\Debug\net6.0\RSMotors.Web.csproj.AssemblyReference.cache
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\obj\Debug\net6.0\RSMotors.Web.GeneratedMSBuildEditorConfig.editorconfig
@@ -568,13 +570,14 @@ C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\obj\Debug\net6.0\RSMotors.Web
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\obj\Debug\net6.0\RSMotors.Web.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\obj\Debug\net6.0\RSMotors.Web.RazorAssemblyInfo.cache
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\obj\Debug\net6.0\RSMotors.Web.RazorAssemblyInfo.cs
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\obj\Debug\net6.0\RSMotors.Web.sourcelink.json
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\obj\Debug\net6.0\staticwebassets\msbuild.RSMotors.Web.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\obj\Debug\net6.0\staticwebassets\msbuild.build.RSMotors.Web.props
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.RSMotors.Web.props
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.RSMotors.Web.props
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\obj\Debug\net6.0\staticwebassets.pack.json
-C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\obj\Debug\net6.0\scopedcss\bundle\RSMotors.Web.styles.css
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\obj\Debug\net6.0\scopedcss\projectbundle\RSMotors.Web.bundle.scp.css
@@ -584,5 +587,3 @@ C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\obj\Debug\net6.0\refint\RSMot
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\obj\Debug\net6.0\RSMotors.Web.pdb
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\obj\Debug\net6.0\RSMotors.Web.genruntimeconfig.cache
 C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\obj\Debug\net6.0\ref\RSMotors.Web.dll
-C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\bin\Debug\net6.0\RSMotors.Web.ViewModel.dll
-C:\Users\VLADO\Desktop\RSMotors\RS-Motors\RSMotors\bin\Debug\net6.0\RSMotors.Web.ViewModel.pdb
